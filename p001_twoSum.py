@@ -7,10 +7,6 @@
 """
 class Solution:
 
-	def __init__(self, nums, target):
-		self.nums = nums
-		self.target = target
-
 	def twoSum(self, nums, target):
 		"""
 		:type nums: list[int]
@@ -26,5 +22,3 @@ class Solution:
 				return [dic[num], i]
 			else:
 				dic[target - num] = i
-
-

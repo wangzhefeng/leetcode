@@ -2,19 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-@author:
-@date:
+@author: tinker
+@date: 2019-01-06
 """
-
-
-import p001_twoSum
-
-
-def main():
-	Solution.twoSum(nums = [2, 7, 11, 15], target = 9)
-
-if __name__ == "__main__":
-	main()
-
-
 
