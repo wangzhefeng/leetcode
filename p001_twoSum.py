@@ -22,3 +22,4 @@ class Solution:
 				return [dic[num], i]
 			else:
 				dic[target - num] = i
+
